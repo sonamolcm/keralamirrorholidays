@@ -98,7 +98,7 @@ export default function ServicesPage() {
                   <span className="service-badge">{srv.highlight}</span>
                   <button
                     onClick={() => handleBook(srv)}
-                    className="btn btn-sm btn-outline"
+                    className="btn btn-sm btn-outline service-inquire-btn"
                     style={{ borderColor: srv.color, color: srv.color }}
                   >
                     <span>Inquire</span>
