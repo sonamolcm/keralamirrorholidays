@@ -5,11 +5,11 @@ export const companyData = {
   description:
     "Kerala Mirror Holidays is your trusted travel and luxury mobility partner based in Tripunithura, Ernakulam. We specialize in bespoke Kerala honeymoon tours, group vacations, monsoon retreats, spiritual temple pilgrimages, authentic Ayurvedic rejuvenation therapies, luxury wedding cars, and corporate travel solutions.",
   email: "mail@keralamirrorholidays.com",
-  saneeshEmail: "Saneesh@keralamirrorholidays.com",
+  saneeshEmail: "saneesh@keralamirrorholidays.com",
   alternateEmail: "Mail@keralamirrorhilidays.com",
   emails: [
     "mail@keralamirrorholidays.com",
-    "Saneesh@keralamirrorholidays.com"
+    "saneesh@keralamirrorholidays.com"
   ],
   phone: "8921450310",
   phoneRaw: "8921450310",
