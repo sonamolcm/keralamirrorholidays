@@ -1346,7 +1346,7 @@ img {
   font-size: 0.86rem;
   color: #64748b;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   gap: 12px;

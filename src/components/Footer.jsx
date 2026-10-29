@@ -210,7 +210,7 @@ export default function Footer({ onOpenBooking }) {
                   <a href={`mailto:${companyData.email}`} style={{ color: '#ffffff' }}>
                     {companyData.email}
                   </a>
-                  <a href={`mailto:${companyData.saneeshEmail}`} style={{ color: '#d49a37', fontWeight: '500' }}>
+                  <a href={`mailto:${companyData.saneeshEmail}`} style={{ color: '#ffffff', fontWeight: '500' }}>
                     {companyData.saneeshEmail}
                   </a>
                 </div>
@@ -219,12 +219,9 @@ export default function Footer({ onOpenBooking }) {
           </div>
         </div>
 
-        {/* Bottom copyright line & Multilingual details */}
-        <div className="footer-bottom">
-          <p>© {new Date().getFullYear()} Kerala Mirror Holidays. All Rights Reserved. Tripunithura, Ernakulam, Kerala.</p>
-          <p style={{ marginTop: '6px', color: '#cbd5e1' }}>
-            <strong style={{ color: '#f5b041' }}>Languages Supported:</strong> English • Malayalam (മലയാളം) • Hindi (हिन्दी) • Tamil (தமிழ்) • Arabic • Kannada | Registered Tour Operator & Luxury Mobility Provider
-          </p>
+        {/* Bottom copyright line */}
+        <div className="footer-bottom" style={{ justifyContent: 'center', textAlign: 'center' }}>
+          <p style={{ margin: 0, textAlign: 'center', width: '100%' }}>© {new Date().getFullYear()} Kerala Mirror Holidays. All Rights Reserved.</p>
         </div>
       </div>
     </footer>
